@@ -6,3 +6,5 @@ The initial color scheme is based off of the
 [offical theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme).
 Updates have been made to try and follow the color schema used on the Github
 website.
+
+Contributions welcome at https://github.com/david-j-lee/vscode-github-dark-theme.
