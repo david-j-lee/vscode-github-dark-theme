@@ -31,3 +31,4 @@ To learn more about scopes and how they're used, check out the [color theme](htt
 
 * To login into `vsce`: `vsce login <publisher name>`.
 * To publish a minor version: `vsce publish minor`.
+* To publish a specific version `vsce publish 0.0.1`.
