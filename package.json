@@ -3,6 +3,7 @@
   "displayName": "github-dark-color-theme",
   "description": "Github inspired dark theme.",
   "version": "0.0.1",
+  "publisher": "david-j-lee",
   "engines": {
     "vscode": "^1.55.0"
   },
