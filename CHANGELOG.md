@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-05-03
+### Added
+- Icon
+### Changed
+- Package.json meta data
+- Theme name
+
+
 ## [0.0.1] - 2021-05-03
 ### Added
 - Github inspired Dark Theme
