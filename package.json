@@ -1,9 +1,11 @@
 {
   "name": "github-dark-color-theme",
-  "displayName": "github-dark-color-theme",
+  "displayName": "Github Dark Color Theme",
   "description": "Github inspired dark theme.",
   "version": "0.0.1",
   "publisher": "david-j-lee",
+  "license": "MIT",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/david-j-lee/vscode-github-dark-theme"
