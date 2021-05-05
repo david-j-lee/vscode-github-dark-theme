@@ -1,7 +1,7 @@
 {
   "name": "github-dark-color-theme",
-  "displayName": "Github Dark Color Theme",
-  "description": "Github inspired dark theme.",
+  "displayName": "GitHub Dark Color Theme",
+  "description": "GitHub inspired dark theme.",
   "version": "0.1.0",
   "publisher": "david-j-lee",
   "license": "MIT",
@@ -19,7 +19,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Github Dark Theme",
+        "label": "GitHub Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/github-dark-color-theme.json"
       }
