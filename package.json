@@ -19,7 +19,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "GitHub Dark Theme",
+        "label": "GitHub Dark (Web Based)",
         "uiTheme": "vs-dark",
         "path": "./themes/github-dark-color-theme.json"
       }
