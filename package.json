@@ -29,5 +29,9 @@
         "path": "./themes/github-dark-color-borderless-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce package & vsce publish"
   }
 }
