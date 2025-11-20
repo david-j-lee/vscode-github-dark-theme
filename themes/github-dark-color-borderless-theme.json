@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "GitHub Dark (Web Based Borderless)",
   "type": "dark",
+  "name": "GitHub Dark (Web Based Borderless)",
   "colors": {
     "activityBar.activeBorder": "#f9826c",
     "activityBar.background": "#161b22",
@@ -119,11 +119,11 @@
     "sideBar.background": "#0d1117",
     "sideBar.border": "#0d1117",
     "sideBar.foreground": "#d1d5da",
-    "sideBarSectionHeader.background": "#161b22",
+    "sideBarSectionHeader.background": "#0d1117",
     "sideBarSectionHeader.border": "#0d1117",
     "sideBarSectionHeader.foreground": "#c9d1d9",
     "sideBarTitle.foreground": "#c9d1d9",
-    "statusBar.background": "#161b22",
+    "statusBar.background": "#0d1117",
     "statusBar.border": "#0d1117",
     "statusBar.debuggingBackground": "#931c06",
     "statusBar.debuggingForeground": "#ffffff",
@@ -149,7 +149,7 @@
     "textLink.foreground": "#58a6ff",
     "textPreformat.foreground": "#d1d5da",
     "textSeparator.foreground": "#586069",
-    "titleBar.activeBackground": "#161b22",
+    "titleBar.activeBackground": "#0d1117",
     "titleBar.activeForeground": "#c9d1d9",
     "titleBar.border": "#0d1117",
     "titleBar.inactiveBackground": "#161b2299",
@@ -264,7 +264,7 @@
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#FFAB70"
+        "foreground": "#f0f6fc"
       }
     },
     {
