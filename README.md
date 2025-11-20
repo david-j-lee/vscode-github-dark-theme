@@ -8,4 +8,9 @@ This color scheme is based off of the
 Updates have been made to try and follow the color schema used on the GitHub
 website as close as possible.
 
+There are two options:
+
+- GitHub Dark (Web Based)
+- GitHub Dark (Web Based Borderless)
+
 Feel free to contribute on the GitHub [repo](https://github.com/david-j-lee/vscode-github-dark-theme).
