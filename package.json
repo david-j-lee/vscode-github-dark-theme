@@ -2,7 +2,7 @@
   "name": "github-dark-color-theme",
   "displayName": "GitHub Dark Color Theme",
   "description": "GitHub inspired dark theme.",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "publisher": "david-j-lee",
   "license": "MIT",
   "icon": "icon.png",
@@ -22,6 +22,11 @@
         "label": "GitHub Dark (Web Based)",
         "uiTheme": "vs-dark",
         "path": "./themes/github-dark-color-theme.json"
+      },
+      {
+        "label": "GitHub Dark (Web Based Borderless)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-dark-color-borderless-theme.json"
       }
     ]
   }
