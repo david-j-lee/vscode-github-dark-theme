@@ -1,7 +1,8 @@
-import { colors } from "./colors";
-import { tokenColors } from "./tokenColors";
-import { writeFile } from "fs/promises";
-import prettier from "prettier";
+import { colors } from './colors';
+import { tokenColors } from './tokenColors';
+import { writeFile } from 'fs/promises';
+import prettier from 'prettier';
+import { sortOjectKeys } from './utils';
 
 interface Theme {
   theme: string;
@@ -11,20 +12,20 @@ interface Theme {
 
 export const themes: Theme[] = [
   {
-    theme: "darkTheme",
-    name: "GitHub Dark (Web Based)",
-    fileName: "github-dark-color-theme.json",
+    theme: 'darkTheme',
+    name: 'GitHub Dark (Web Based)',
+    fileName: 'github-dark-color-theme.json',
   },
   {
-    theme: "darkBorderlessTheme",
-    name: "GitHub Dark (Web Based Borderless)",
-    fileName: "github-dark-color-borderless-theme.json",
+    theme: 'darkBorderlessTheme',
+    name: 'GitHub Dark (Web Based Borderless)',
+    fileName: 'github-dark-color-borderless-theme.json',
   },
 ];
 
 const baseTheme = {
-  $schema: "vscode://schemas/color-theme",
-  type: "dark",
+  $schema: 'vscode://schemas/color-theme',
+  type: 'dark',
 };
 
 export const generateThemes = async () => {
@@ -40,13 +41,13 @@ export const generateThemes = async () => {
           {
             ...baseTheme,
             name: theme.name,
-            colors: themeColors,
+            colors: sortOjectKeys(themeColors),
             tokenColors: themeTokens,
           },
           null,
           2
         ),
-        { parser: "json" }
+        { parser: 'json' }
       )
     );
   }

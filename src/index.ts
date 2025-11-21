@@ -1,3 +1,3 @@
-import { generateThemes } from "./themes";
+import { generateThemes } from './themes';
 
 generateThemes();
