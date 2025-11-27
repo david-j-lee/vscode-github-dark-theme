@@ -176,6 +176,7 @@ const darkBorderlessTheme = {
   'statusBar.background': '#0d1117',
   'statusBar.border': '#0d1117',
   'tab.activeBorderTop': '#0d1117',
+  'tab.activeBackground': '#161b22',
   'tab.border': '#0d1117',
   'textBlockQuote.border': '#0d1117',
   'titleBar.activeBackground': '#0d1117',
